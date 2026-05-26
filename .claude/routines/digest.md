@@ -1,6 +1,7 @@
 # ダイジェスト生成プロンプト
 
 Web Searchツールを使って以下の情報を収集し、要約してください。
+
 1. Anthropic 公式ブログの直近24時間の記事 (site:anthropic.com/news)
 2. OpenAI 公式ブログの直近24時間の記事 (site:openai.com/blog)
 3. Hacker News の本日上位スレッド (site:news.ycombinator.com)
@@ -37,29 +38,35 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 ```
 # YYYY-MM-DD
+
 {今日のトーン：全セクションを通じた概況を1〜2行で。例：「今週はAnthropicとOpenAIの資金調達競争が過熱。一方Swiftエコシステムは静かだが着実に進化中。」}
 
 ## AI（Anthropic / OpenAI）
 - **タイトル**：一行サマリー
-  - {URL}
+  - [{URL}]({URL})
+
 ## Hacker News
 - **タイトル**：一行サマリー
-  - {URL}
+  - [{URL}]({URL})
+
 ## Apple Developer
 - **タイトル**：一行サマリー
-  - {URL}
+  - [{URL}]({URL})
+
 ## Swift / Apple エコシステム
 - **タイトル**：一行サマリー
-  - {URL}
+  - [{URL}]({URL})
+
 ## GitHub Trending
 - **リポジトリ名**：一行サマリー
-  - {URL}
+  - [{URL}]({URL})
+
 ## 株式マーケット（IT）
 - **タイトル**：一行サマリー 🇺🇸 or 🇯🇵
-  - {URL}
+  - [{URL}]({URL})
 ```
 
-{URL}の箇所はそのまま生のURLを記載すること。https始まり。
+{URL}の箇所はそのまま生のURLを記載すること（https始まり）。リンクテキスト・リンク先ともに同じURLを入れる Markdown リンク `[URL](URL)` 形式とする。
 
 各セクション3〜5件に絞ること。
 docs/ 配下の既存のmdファイルを確認し、過去に掲載済みの記事（タイトル・URLが一致するもの）は今日のファイルに含めないこと。
