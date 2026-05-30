@@ -67,6 +67,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 ```
 
 {URL}の箇所はそのまま生のURLを記載すること（https始まり）。リンクテキスト・リンク先ともに同じURLを入れる Markdown リンク `[URL](URL)` 形式とする。
+GitHub Trending セクションの URL は `https://github.com/trending` ではなく、各リポジトリの実URL（例: `https://github.com/owner/repo-name`）を必ず使うこと。
 
 見出し（`#` / `##` / `###`）の前後には必ず空行を入れること。
 
