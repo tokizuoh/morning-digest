@@ -11,10 +11,11 @@ Web Searchツールを使って以下の情報を収集し、要約してくだ�
 7. Swift Forums の直近の注目スレッド (site:forums.swift.org)
 8. swift-evolution の直近のProposal・PR (site:github.com/swiftlang/swift-evolution)
 9. GitHub Trending の本日分（言語問わず） (https://github.com/trending)
-10. Reuters Technology の直近24時間の記事 (site:reuters.com/technology)
-11. MarketWatch の直近24時間のIT関連ニュース (site:marketwatch.com "technology OR semiconductor OR AI OR earnings")
-12. 東洋経済オンラインの直近IT関連記事 (site:toyokeizai.net "IT OR テクノロジー OR 半導体 OR AI")
-13. TDnet 適時開示の直近IT関連開示 (site:tdnet.info)
+10. GitHub Japan Blog の直近記事 (https://github.blog/jp/)
+11. Reuters Technology の直近24時間の記事 (site:reuters.com/technology)
+12. MarketWatch の直近24時間のIT関連ニュース (site:marketwatch.com "technology OR semiconductor OR AI OR earnings")
+13. 東洋経済オンラインの直近IT関連記事 (site:toyokeizai.net "IT OR テクノロジー OR 半導体 OR AI")
+14. TDnet 適時開示の直近IT関連開示 (site:tdnet.info)
 
 ## 選定基準
 
@@ -59,6 +60,10 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 ## GitHub Trending
 - **リポジトリ名**：一行サマリー
+  - [{URL}]({URL})
+
+## GitHub Blog
+- **タイトル**：一行サマリー
   - [{URL}]({URL})
 
 ## 株式マーケット（IT）
