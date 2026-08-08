@@ -4,24 +4,26 @@ Web Searchツールを使って以下の情報を収集し、要約してくだ�
 
 1. Anthropic 公式ブログの直近24時間の記事 (site:anthropic.com/news)
 2. OpenAI 公式ブログの直近24時間の記事 (site:openai.com/blog)
-3. Hacker News の本日上位スレッド (site:news.ycombinator.com)
-4. Apple Developer の直近ニュース (site:developer.apple.com/news)
-5. Apple Developer の直近リリース情報 (site:developer.apple.com/news/releases)
-6. Swift.org ブログの直近記事 (site:swift.org/blog)
-7. Swift Forums の直近の注目スレッド (site:forums.swift.org)
-8. swift-evolution の直近のProposal・PR (site:github.com/swiftlang/swift-evolution)
-9. GitHub Trending の本日分（言語問わず） (https://github.com/trending)
-10. GitHub Japan Blog の直近記事 (https://github.blog/jp/)
-11. Reuters Technology の直近24時間の記事 (site:reuters.com/technology)
-12. MarketWatch の直近24時間のIT関連ニュース (site:marketwatch.com "technology OR semiconductor OR AI OR earnings")
-13. 東洋経済オンラインの直近IT関連記事 (site:toyokeizai.net "IT OR テクノロジー OR 半導体 OR AI")
-14. TDnet 適時開示の直近IT関連開示 (site:tdnet.info)
+3. Google AI 公式ブログの直近24時間の記事（Gemini のプラン改定・新機能などを含む） (site:blog.google/technology/ai)
+4. Hacker News の本日上位スレッド (site:news.ycombinator.com)
+5. Apple Developer の直近ニュース (site:developer.apple.com/news)
+6. Apple Developer の直近リリース情報 (site:developer.apple.com/news/releases)
+7. Swift.org ブログの直近記事 (site:swift.org/blog)
+8. Swift Forums の直近の注目スレッド (site:forums.swift.org)
+9. swift-evolution の直近のProposal・PR (site:github.com/swiftlang/swift-evolution)
+10. GitHub Trending の本日分（言語問わず） (https://github.com/trending)
+11. GitHub Japan Blog の直近記事 (https://github.blog/jp/)
+12. Reuters Technology の直近24時間の記事 (site:reuters.com/technology)
+13. MarketWatch の直近24時間のIT関連ニュース (site:marketwatch.com "technology OR semiconductor OR AI OR earnings")
+14. 東洋経済オンラインの直近IT関連記事 (site:toyokeizai.net "IT OR テクノロジー OR 半導体 OR AI")
+15. TDnet 適時開示の直近IT関連開示 (site:tdnet.info)
 
 ## 選定基準
 
 - Swift / iOS エンジニアとして実務に影響しうるものを優先する
 - 評価額・資金調達より、技術的変化（API変更・新機能・破壊的変更）を重視する
 - 「大きいニュース」より「見落とされがちだが重要なもの」を積極的に拾う
+- Gemini など各社AI製品の新プラン・料金改定・機能追加も、開発者や利用者に影響しうる場合は対象に含める
 
 ## 出力形式
 
@@ -42,7 +44,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 {今日のトーン：全セクションを通じた概況を1〜2行で。例：「今週はAnthropicとOpenAIの資金調達競争が過熱。一方Swiftエコシステムは静かだが着実に進化中。」}
 
-## AI（Anthropic / OpenAI）
+## AI（Anthropic / OpenAI / Google）
 - **タイトル**：一行サマリー
   - [{URL}]({URL})
 
