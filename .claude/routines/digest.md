@@ -17,6 +17,7 @@ Web Searchツールを使って以下の情報を収集し、要約してくだ�
 13. MarketWatch の直近24時間のIT関連ニュース (site:marketwatch.com "technology OR semiconductor OR AI OR earnings")
 14. 東洋経済オンラインの直近IT関連記事 (site:toyokeizai.net "IT OR テクノロジー OR 半導体 OR AI")
 15. TDnet 適時開示の直近IT関連開示 (site:tdnet.info)
+16. Lobsters の本日上位スレッド (https://lobste.rs/)
 
 ## 選定基準
 
@@ -52,6 +53,10 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 - **タイトル**：一行サマリー
   - [{URL}]({URL})
 
+## Lobsters
+- **タイトル**：一行サマリー
+  - [{URL}]({URL})
+
 ## Apple Developer
 - **タイトル**：一行サマリー
   - [{URL}]({URL})
@@ -75,6 +80,7 @@ TZ=Asia/Tokyo date +%Y-%m-%d
 
 {URL}の箇所はそのまま生のURLを記載すること（https始まり）。リンクテキスト・リンク先ともに同じURLを入れる Markdown リンク `[URL](URL)` 形式とする。
 GitHub Trending セクションの URL は `https://github.com/trending` ではなく、各リポジトリの実URL（例: `https://github.com/owner/repo-name`）を必ず使うこと。
+Lobsters セクションの URL は `https://lobste.rs/` ではなく、各スレッドの実URL（例: `https://lobste.rs/s/xxxxxx/slug`）を必ず使うこと。
 
 見出し（`#` / `##` / `###`）の前後には必ず空行を入れること。
 
